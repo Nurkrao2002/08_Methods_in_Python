@@ -22,7 +22,7 @@ book={
 'p': 'Python'
 }
 print(book['p'])
-print(book[10]) # KeyError
+print(book[10])              # KeyError
 
 h={1:"",2: "Python", 3: 7, 4: 6.2,
 5: [1,4], 6: (4,3), 7: {1,2},
@@ -45,8 +45,8 @@ print(dict.fromkeys(a,25))
 
 h={1:"", 2: "Python", 3: 7, 4: 6.2,
 5: [1,4], 6: (4,3), 7: {1,2},8: {3: "world"}}
-print(h.get(4))        # 6.2
-print(h.get(76))       # None
+print(h.get(4))                   # 6.2
+print(h.get(76))                  # None
 print(h[47])
 h.pop(4)
 print(h)
@@ -67,4 +67,3 @@ h.setdefault(8,'DevOps')
 print(h)
 h.setdefault(10 , 'DevOps')
 print(h)
-
